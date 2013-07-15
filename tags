@@ -1,0 +1,267 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ArgError	mrblib/cache.rb	/^  class ArgError < CacheError; end$/;"	c	class:Cache
+Cache	mrblib/cache.rb	/^class Cache$/;"	c
+Cache	src/cache.c	/^static struct RClass *Cache;$/;"	v	typeref:struct:RClass	file:
+CacheError	mrblib/cache.rb	/^  class CacheError < StandardError; end$/;"	c	class:Cache
+Cache__check	src/cache.c	/^static VALUE Cache__check(VALUE klass, VALUE o) {$/;"	f	file:
+Cache__check_consistency	src/cache.c	/^static VALUE Cache__check_consistency(VALUE obj) {$/;"	f	file:
+Cache__clear	src/cache.c	/^static VALUE Cache__clear(VALUE obj) {$/;"	f	file:
+Cache__close	src/cache.c	/^static VALUE Cache__close(VALUE obj) {$/;"	f	file:
+Cache__delete	src/cache.c	/^static VALUE Cache__delete(VALUE obj, VALUE key) {$/;"	f	file:
+Cache__disable_test_crash	src/cache.c	/^static VALUE Cache__disable_test_crash(VALUE klass) {$/;"	f	file:
+Cache__drop	src/cache.c	/^static VALUE Cache__drop(VALUE klass, VALUE o) {$/;"	f	file:
+Cache__each_pair	src/cache.c	/^static VALUE Cache__each_pair(VALUE obj) {$/;"	f	file:
+Cache__enable_test_crash	src/cache.c	/^static VALUE Cache__enable_test_crash(VALUE klass) {$/;"	f	file:
+Cache__get	src/cache.c	/^static VALUE Cache__get(VALUE obj, VALUE key) {$/;"	f	file:
+Cache__keys	src/cache.c	/^static VALUE Cache__keys(VALUE obj) {$/;"	f	file:
+Cache__new2	src/cache.c	/^static VALUE Cache__new2(VALUE klass, VALUE o) {$/;"	f	file:
+Cache__random_pair	src/cache.c	/^static VALUE Cache__random_pair(VALUE obj) {$/;"	f	file:
+Cache__set	src/cache.c	/^static VALUE Cache__set(VALUE obj, VALUE key, VALUE value) {$/;"	f	file:
+Cache__shm_status	src/cache.c	/^static VALUE Cache__shm_status(VALUE obj) {$/;"	f	file:
+Cache__size	src/cache.c	/^static VALUE Cache__size(VALUE obj) {$/;"	f	file:
+DBVersionNotSupported	mrblib/cache.rb	/^  class DBVersionNotSupported < CacheError; end$/;"	c	class:Cache
+DONE	src/mruby_cache_gem.c	/^#define DONE /;"	d	file:
+InitError	mrblib/cache.rb	/^  class InitError < CacheError; end$/;"	c	class:Cache
+LMC_DB_VERSION	src/localmemcache/lmc_common.h	/^#define LMC_DB_VERSION /;"	d
+LMC_DEBUG_ALLOC	src/localmemcache/lmc_valloc.h	/^#undef LMC_DEBUG_ALLOC$/;"	d
+LMC_ERROR	src/localmemcache/lmc_error.h	/^#define LMC_ERROR /;"	d
+LMC_HT_BUCKETS	src/localmemcache/lmc_hashtable.h	/^#define LMC_HT_BUCKETS /;"	d
+LMC_ITERATOR_P	src/localmemcache/lmc_hashtable.h	/^#define LMC_ITERATOR_P(/;"	d
+LMC_MEMORY_POOL_FULL	src/localmemcache/lmc_error.h	/^#define LMC_MEMORY_POOL_FULL(/;"	d
+LMC_OK	src/localmemcache/lmc_error.h	/^#define LMC_OK /;"	d
+LMC_OP_HT_SET	src/localmemcache/lmc_hashtable.c	/^#define LMC_OP_HT_SET /;"	d	file:
+LMC_TEST_CRASH	src/localmemcache/lmc_common.h	/^#define LMC_TEST_CRASH /;"	d
+LMC_TEST_CRASH	src/localmemcache/lmc_common.h	/^#define LMC_TEST_CRASH$/;"	d
+LOCAL_MEMCACHE_FAILED	src/localmemcache/localmemcache.h	/^#define LOCAL_MEMCACHE_FAILED /;"	d
+LOCAL_MEMCACHE_SUCCESS	src/localmemcache/localmemcache.h	/^#define LOCAL_MEMCACHE_SUCCESS /;"	d
+LockError	mrblib/cache.rb	/^  class LockError < CacheError; end$/;"	c	class:Cache
+LockTimedOut	mrblib/cache.rb	/^  class LockTimedOut < CacheError; end$/;"	c	class:Cache
+MemoryPoolClosed	mrblib/cache.rb	/^  class MemoryPoolClosed < CacheError; end$/;"	c	class:Cache
+MemoryPoolFull	mrblib/cache.rb	/^  class MemoryPoolFull < CacheError; end$/;"	c	class:Cache
+OutOfMemoryError	mrblib/cache.rb	/^  class OutOfMemoryError < CacheError; end$/;"	c	class:Cache
+RARRAY_LEN	src/cache.c	/^#define RARRAY_LEN(/;"	d	file:
+RARRAY_PTR	src/cache.c	/^#define RARRAY_PTR(/;"	d	file:
+RSTRING_LEN	src/cache.c	/^#define RSTRING_LEN(/;"	d	file:
+RSTRING_PTR	src/cache.c	/^#define RSTRING_PTR(/;"	d	file:
+RecoveryFailed	mrblib/cache.rb	/^  class RecoveryFailed < CacheError; end$/;"	c	class:Cache
+STD_OUT_OF_MEMORY_ERROR	src/localmemcache/lmc_error.h	/^#define STD_OUT_OF_MEMORY_ERROR(/;"	d
+ShmError	mrblib/cache.rb	/^  class ShmError < CacheError; end$/;"	c	class:Cache
+ShmLockFailed	mrblib/cache.rb	/^  class ShmLockFailed < CacheError; end$/;"	c	class:Cache
+ShmUnlockFailed	mrblib/cache.rb	/^  class ShmUnlockFailed < CacheError; end$/;"	c	class:Cache
+_LMC_COMMON_H_INCLUDED_	src/localmemcache/lmc_common.h	/^#define _LMC_COMMON_H_INCLUDED_$/;"	d
+_LMC_ERROR_H_	src/localmemcache/lmc_error.h	/^#define _LMC_ERROR_H_$/;"	d
+_LMC_HASHTABLE_H_INCLUDED_	src/localmemcache/lmc_hashtable.h	/^#define _LMC_HASHTABLE_H_INCLUDED_$/;"	d
+_LMC_LOCK_H_	src/localmemcache/lmc_lock.h	/^#define _LMC_LOCK_H_$/;"	d
+_LMC_SHM_H_INCLUDED_	src/localmemcache/lmc_shm.h	/^#define _LMC_SHM_H_INCLUDED_$/;"	d
+_LMC_VALLOC_H_INCLUDED_	src/localmemcache/lmc_valloc.h	/^#define _LMC_VALLOC_H_INCLUDED_$/;"	d
+_LOCAL_MEMCACHE_INCLUDED_	src/localmemcache/localmemcache.h	/^#define _LOCAL_MEMCACHE_INCLUDED_$/;"	d
+__Cache__each_pair	src/cache.c	/^static VALUE __Cache__each_pair(VALUE d) {$/;"	f	file:
+__Cache__keys	src/cache.c	/^static VALUE __Cache__keys(VALUE d) {$/;"	f	file:
+__lmc_free	src/localmemcache/lmc_valloc.c	/^void __lmc_free(void *base, size_t va_used_chunk, size_t uc_size) {$/;"	f
+__local_memcache_check_namespace	src/localmemcache/localmemcache.c	/^int __local_memcache_check_namespace(const char *clean_ns, lmc_error_t *e) {$/;"	f
+__local_memcache_create	src/localmemcache/localmemcache.c	/^local_memcache_t *__local_memcache_create(const char *namespace, size_t size, $/;"	f
+__local_memcache_free	src/localmemcache/localmemcache.c	/^int __local_memcache_free(local_memcache_t *lmc, lmc_error_t *e, int lock) {$/;"	f
+__local_memcache_get	src/localmemcache/localmemcache.c	/^const char *__local_memcache_get(local_memcache_t *lmc, $/;"	f
+__local_memcache_random_pair	src/localmemcache/localmemcache.c	/^int __local_memcache_random_pair(local_memcache_t *lmc, $/;"	f
+__rb_lmc_raise_exception	src/cache.c	/^void __rb_lmc_raise_exception(const char *error_type, const char *m) {$/;"	f
+__s	src/localmemcache/lmc_valloc.c	/^size_t __s(char *where, lmc_mem_status_t ms, size_t mem_before, size_t expected_diff) {$/;"	f
+ary	src/cache.c	/^  VALUE ary;$/;"	m	struct:__anon3	file:
+ary	src/cache.c	/^  VALUE ary;$/;"	m	struct:__anon4	file:
+base	src/localmemcache/lmc_shm.h	/^  void *base;$/;"	m	struct:__anon11
+base	src/localmemcache/localmemcache.h	/^  void* base;$/;"	m	struct:__anon16
+bool_value	src/cache.c	/^int bool_value(VALUE v) { return v == Qtrue; }$/;"	f
+bucket_ofs	src/localmemcache/lmc_hashtable.h	/^  size_t bucket_ofs;$/;"	m	struct:__anon8
+cstr	src/cache.c	/^  char *cstr;$/;"	m	struct:__anon1	file:
+double_value	src/cache.c	/^double double_value(VALUE i) { return NUM2DBL(i); }$/;"	f
+dummy2	src/localmemcache/lmc_valloc.h	/^  size_t dummy2;  \/\/ dummy for next$/;"	m	struct:__anon14
+error	src/localmemcache/localmemcache.h	/^  lmc_error_t error;$/;"	m	struct:__anon16
+error_number	src/localmemcache/lmc_error.h	/^  int error_number;$/;"	m	struct:__anon5
+error_str	src/localmemcache/lmc_error.h	/^  char error_str[1024];$/;"	m	struct:__anon5
+error_type	src/localmemcache/lmc_error.h	/^  char error_type[1024];$/;"	m	struct:__anon5
+fd	src/localmemcache/lmc_shm.h	/^  int fd;$/;"	m	struct:__anon11
+first_free	src/localmemcache/lmc_valloc.h	/^  size_t first_free;$/;"	m	struct:__anon14
+free_chunks	src/localmemcache/lmc_valloc.h	/^  size_t free_chunks;$/;"	m	struct:__anon12
+free_mem	src/localmemcache/lmc_valloc.h	/^  size_t free_mem;$/;"	m	struct:__anon12
+get_Cache	src/cache.c	/^local_memcache_t *get_Cache(VALUE obj) {$/;"	f
+has_key?	mrblib/cache.rb	/^  def has_key?(k) !get(k).nil? end$/;"	f	class:Cache
+ht_check_memory	src/localmemcache/lmc_hashtable.c	/^int ht_check_memory(void *base, va_ht_hash_t va_ht) {$/;"	f
+ht_delete	src/localmemcache/lmc_hashtable.c	/^int ht_delete(void *base, va_ht_hash_t va_ht, const char *key, size_t n_key) {$/;"	f
+ht_get	src/localmemcache/lmc_hashtable.c	/^const char *ht_get(void *base, va_ht_hash_t va_ht, const char *key, $/;"	f
+ht_hash_create	src/localmemcache/lmc_hashtable.c	/^va_ht_hash_t ht_hash_create(void *base, lmc_error_t *e) {$/;"	f
+ht_hash_destroy	src/localmemcache/lmc_hashtable.c	/^int ht_hash_destroy(void *base, va_ht_hash_t ht) { $/;"	f
+ht_hash_entry_t	src/localmemcache/lmc_hashtable.h	/^} ht_hash_entry_t;$/;"	t	typeref:struct:__anon7
+ht_hash_iterate	src/localmemcache/lmc_hashtable.c	/^int ht_hash_iterate(void *base, va_ht_hash_t va_ht, void *ctx, $/;"	f
+ht_hash_key	src/localmemcache/lmc_hashtable.c	/^unsigned long ht_hash_key(const char *s, size_t l) {$/;"	f
+ht_hash_t	src/localmemcache/lmc_hashtable.h	/^} ht_hash_t;$/;"	t	typeref:struct:__anon9
+ht_iter_status_t	src/localmemcache/lmc_hashtable.h	/^} ht_iter_status_t;$/;"	t	typeref:struct:__anon8
+ht_lookup	src/localmemcache/lmc_hashtable.c	/^ht_hash_entry_t *ht_lookup(void *base, va_ht_hash_t va_ht, const char *key, $/;"	f
+ht_lookup2	src/localmemcache/lmc_hashtable.c	/^ht_hash_entry_t *ht_lookup2(void *base, va_ht_hash_t va_ht, char *k) {$/;"	f
+ht_random_pair	src/localmemcache/lmc_hashtable.c	/^int ht_random_pair(void *base, va_ht_hash_t va_ht, char **r_key, $/;"	f
+ht_redo	src/localmemcache/lmc_hashtable.c	/^int ht_redo(void *base, va_ht_hash_t va_ht, lmc_log_descriptor_t *l, $/;"	f
+ht_set	src/localmemcache/lmc_hashtable.c	/^int ht_set(void *base, va_ht_hash_t va_ht, const char *key, $/;"	f
+is_lmc_already_initialized	src/localmemcache/lmc_valloc.c	/^int is_lmc_already_initialized(void *base) {$/;"	f
+largest_chunk	src/localmemcache/lmc_valloc.h	/^  size_t largest_chunk;$/;"	m	struct:__anon12
+len	src/cache.c	/^  size_t len;$/;"	m	struct:__anon1	file:
+lmc	src/cache.c	/^  local_memcache_t *lmc;$/;"	m	struct:__anon2	file:
+lmc_check_dict	src/cache.c	/^void lmc_check_dict(VALUE o) {$/;"	f
+lmc_checkize	src/localmemcache/localmemcache.c	/^void lmc_checkize(char *result, char *s) { snprintf(result, 1023, "%s-check", s); }$/;"	f
+lmc_clean_namespace	src/localmemcache/lmc_shm.c	/^int lmc_clean_namespace(const char *ns, lmc_error_t *e) {$/;"	f
+lmc_clean_string	src/localmemcache/lmc_common.c	/^void lmc_clean_string(char *result, const char *source) {$/;"	f
+lmc_clear_namespace_lock	src/localmemcache/lmc_lock.c	/^int lmc_clear_namespace_lock(const char *ns) {$/;"	f
+lmc_compact_free_chunks	src/localmemcache/lmc_valloc.c	/^void lmc_compact_free_chunks(void *base, size_t va_chunk) {$/;"	f
+lmc_does_file_exist	src/localmemcache/lmc_shm.c	/^int lmc_does_file_exist(const char *fn) {$/;"	f
+lmc_does_namespace_exist	src/localmemcache/lmc_shm.c	/^int lmc_does_namespace_exist(const char *ns) {$/;"	f
+lmc_dump	src/localmemcache/lmc_valloc.c	/^void lmc_dump(void *base) {$/;"	f
+lmc_dump_chunk	src/localmemcache/lmc_valloc.c	/^void lmc_dump_chunk(void *base, lmc_mem_chunk_descriptor_t* c) {$/;"	f
+lmc_dump_chunk_brief	src/localmemcache/lmc_valloc.c	/^void lmc_dump_chunk_brief(char *who, void *base, lmc_mem_chunk_descriptor_t* c) {$/;"	f
+lmc_error_t	src/localmemcache/lmc_error.h	/^} lmc_error_t;$/;"	t	typeref:struct:__anon5
+lmc_file_path_for_namespace	src/localmemcache/lmc_shm.c	/^void lmc_file_path_for_namespace(char *result, const char *ns) {$/;"	f
+lmc_file_size	src/localmemcache/lmc_shm.c	/^int lmc_file_size(const char *fn) {$/;"	f
+lmc_free	src/localmemcache/lmc_valloc.c	/^void lmc_free(void *base, size_t chunk) {$/;"	f
+lmc_get_db_version	src/localmemcache/lmc_valloc.c	/^size_t lmc_get_db_version(void *ptr) {$/;"	f
+lmc_handle_error	src/localmemcache/lmc_error.c	/^int lmc_handle_error(int check, const char *ctx, const char *error_type, $/;"	f
+lmc_handle_error_with_err_string	src/localmemcache/lmc_error.c	/^int lmc_handle_error_with_err_string(const char *ctx, $/;"	f
+lmc_hash	src/localmemcache/lmc_common.c	/^unsigned long lmc_hash(const char *s, size_t l) {$/;"	f
+lmc_ht_strdup	src/localmemcache/lmc_hashtable.c	/^size_t lmc_ht_strdup(void *base, const char *s, size_t l) {$/;"	f
+lmc_init	src/localmemcache/localmemcache.c	/^void lmc_init() {                                                               $/;"	f
+lmc_init_memory	src/localmemcache/lmc_valloc.c	/^void lmc_init_memory(void *ptr, size_t size) {$/;"	f
+lmc_is_filename	src/localmemcache/lmc_common.c	/^int lmc_is_filename(const char *s) {$/;"	f
+lmc_is_lock_working	src/localmemcache/lmc_lock.c	/^int lmc_is_lock_working(lmc_lock_t* l, lmc_error_t *e) {$/;"	f
+lmc_is_locked	src/localmemcache/lmc_lock.c	/^int lmc_is_locked(lmc_lock_t* l, lmc_error_t *e) {$/;"	f
+lmc_is_va_valid	src/localmemcache/lmc_valloc.c	/^int lmc_is_va_valid(void *base, size_t va) {$/;"	f
+lmc_lock_free	src/localmemcache/lmc_lock.c	/^void lmc_lock_free(lmc_lock_t* l) {$/;"	f
+lmc_lock_get_value	src/localmemcache/lmc_lock.c	/^int lmc_lock_get_value(lmc_lock_t* l) {$/;"	f
+lmc_lock_init	src/localmemcache/lmc_lock.c	/^lmc_lock_t *lmc_lock_init(const char *ns, int init, lmc_error_t *e) {$/;"	f
+lmc_lock_obtain	src/localmemcache/lmc_lock.c	/^int lmc_lock_obtain(const char *where, lmc_lock_t* l, lmc_error_t *e) {$/;"	f
+lmc_lock_obtain_mandatory	src/localmemcache/lmc_lock.c	/^int lmc_lock_obtain_mandatory(const char *where, lmc_lock_t* l, lmc_error_t *e) {$/;"	f
+lmc_lock_release	src/localmemcache/lmc_lock.c	/^int lmc_lock_release(const char *where, lmc_lock_t* l, lmc_error_t *e) {$/;"	f
+lmc_lock_repair	src/localmemcache/lmc_lock.c	/^void lmc_lock_repair(lmc_lock_t *l) {$/;"	f
+lmc_lock_shm_region	src/localmemcache/localmemcache.c	/^int lmc_lock_shm_region(const char *who, local_memcache_t *lmc) {$/;"	f
+lmc_lock_t	src/localmemcache/lmc_lock.h	/^} lmc_lock_t;$/;"	t	typeref:struct:__anon10
+lmc_log_descriptor_t	src/localmemcache/lmc_valloc.h	/^} lmc_log_descriptor_t;$/;"	t	typeref:struct:__anon13
+lmc_log_finish	src/localmemcache/lmc_valloc.c	/^void lmc_log_finish(void *base) {$/;"	f
+lmc_log_ht_set	src/localmemcache/lmc_hashtable.c	/^} lmc_log_ht_set;$/;"	t	typeref:struct:__anon6	file:
+lmc_log_op	src/localmemcache/lmc_valloc.c	/^lmc_log_descriptor_t *lmc_log_op(void *base, int opid) {$/;"	f
+lmc_max	src/localmemcache/lmc_valloc.c	/^size_t lmc_max(size_t a, size_t b) { $/;"	f
+lmc_mem_chunk_descriptor_t	src/localmemcache/lmc_valloc.h	/^} lmc_mem_chunk_descriptor_t;$/;"	t	typeref:struct:__anon15
+lmc_mem_descriptor_t	src/localmemcache/lmc_valloc.h	/^} lmc_mem_descriptor_t;$/;"	t	typeref:struct:__anon14
+lmc_mem_status_t	src/localmemcache/lmc_valloc.h	/^} lmc_mem_status_t;$/;"	t	typeref:struct:__anon12
+lmc_min_alloc_size	src/localmemcache/lmc_valloc.c	/^size_t lmc_min_alloc_size(void *base) {$/;"	f
+lmc_namespace_or_filename	src/localmemcache/localmemcache.c	/^int lmc_namespace_or_filename(char *result, const char* ons, const char *ofn,$/;"	f
+lmc_namespace_root_path	src/localmemcache/lmc_shm.c	/^const char *lmc_namespace_root_path() {$/;"	f
+lmc_namespace_size	src/localmemcache/lmc_shm.c	/^int lmc_namespace_size(const char *ns) {$/;"	f
+lmc_namespacify	src/localmemcache/lmc_lock.c	/^void lmc_namespacify(char *result, const char *s) {$/;"	f
+lmc_null_node	src/localmemcache/lmc_hashtable.c	/^ht_hash_entry_t lmc_null_node = { 0, 0, 0 };$/;"	v
+lmc_rb_str_d_t	src/cache.c	/^} lmc_rb_str_d_t;$/;"	t	typeref:struct:__anon1	file:
+lmc_rb_sym_filename	src/cache.c	/^static mrb_value lmc_rb_sym_filename;$/;"	v	file:
+lmc_rb_sym_force	src/cache.c	/^static mrb_value lmc_rb_sym_force;$/;"	v	file:
+lmc_rb_sym_min_alloc_size	src/cache.c	/^static mrb_value lmc_rb_sym_min_alloc_size;$/;"	v	file:
+lmc_rb_sym_namespace	src/cache.c	/^static VALUE lmc_rb_sym_namespace;$/;"	v	file:
+lmc_rb_sym_size_mb	src/cache.c	/^static mrb_value lmc_rb_sym_size_mb;$/;"	v	file:
+lmc_release_lock_flag	src/localmemcache/localmemcache.c	/^int lmc_release_lock_flag(void *base, lmc_error_t *e) {$/;"	f
+lmc_ruby_iter	src/cache.c	/^int lmc_ruby_iter(void *ctx, const char* key, const char* value) {$/;"	f
+lmc_ruby_iter_collect_keys	src/cache.c	/^} lmc_ruby_iter_collect_keys;$/;"	t	typeref:struct:__anon3	file:
+lmc_ruby_iter_collect_pairs	src/cache.c	/^int lmc_ruby_iter_collect_pairs(void *ctx, const char* key, const char* value) {$/;"	f
+lmc_ruby_iter_collect_pairs_t	src/cache.c	/^} lmc_ruby_iter_collect_pairs_t;$/;"	t	typeref:struct:__anon4	file:
+lmc_ruby_string	src/cache.c	/^static VALUE lmc_ruby_string(const char *s) { $/;"	f	file:
+lmc_ruby_string2	src/cache.c	/^static VALUE lmc_ruby_string2(const char *s, size_t l) { $/;"	f	file:
+lmc_sem_timed_wait	src/localmemcache/lmc_lock.c	/^int lmc_sem_timed_wait(lmc_lock_t* l) {$/;"	f
+lmc_sem_timed_wait_mandatory	src/localmemcache/lmc_lock.c	/^int lmc_sem_timed_wait_mandatory(lmc_lock_t* l) {$/;"	f
+lmc_set_lock_flag	src/localmemcache/localmemcache.c	/^int lmc_set_lock_flag(void *base, lmc_error_t *e) {$/;"	f
+lmc_set_min_alloc_size	src/localmemcache/lmc_valloc.c	/^void lmc_set_min_alloc_size(void *base, size_t s) {$/;"	f
+lmc_shm_create	src/localmemcache/lmc_shm.c	/^lmc_shm_t *lmc_shm_create(const char* namespace, size_t size, lmc_error_t *e) {$/;"	f
+lmc_shm_destroy	src/localmemcache/lmc_shm.c	/^int lmc_shm_destroy(lmc_shm_t *mc, lmc_error_t *e) {$/;"	f
+lmc_shm_ensure_namespace_file	src/localmemcache/lmc_shm.c	/^void lmc_shm_ensure_namespace_file(const char *ns) {$/;"	f
+lmc_shm_ensure_root_path	src/localmemcache/lmc_shm.c	/^void lmc_shm_ensure_root_path() {$/;"	f
+lmc_shm_t	src/localmemcache/lmc_shm.h	/^} lmc_shm_t;$/;"	t	typeref:struct:__anon11
+lmc_show_status	src/localmemcache/lmc_valloc.c	/^void lmc_show_status(void *base) {$/;"	f
+lmc_showed_status	src/localmemcache/lmc_common.c	/^int lmc_showed_status = 0;$/;"	v
+lmc_status	src/localmemcache/lmc_valloc.c	/^lmc_mem_status_t lmc_status(void *base, char *where) {$/;"	f
+lmc_string_data	src/localmemcache/lmc_hashtable.c	/^char *lmc_string_data(char *s) { return s + sizeof(size_t); }$/;"	f
+lmc_string_len	src/localmemcache/lmc_hashtable.c	/^size_t lmc_string_len(char *s) { return *(size_t *) s; }$/;"	f
+lmc_test_crash	src/localmemcache/lmc_common.c	/^void lmc_test_crash(const char* file, int line, const char *function) {$/;"	f
+lmc_test_crash_enabled	src/localmemcache/lmc_common.c	/^int lmc_test_crash_enabled = 0;$/;"	v
+lmc_test_valloc_fail	src/localmemcache/lmc_common.c	/^size_t lmc_test_valloc_fail(const char *file, int line, const char *function,$/;"	f
+lmc_total_shm_size	src/localmemcache/lmc_valloc.c	/^size_t lmc_total_shm_size(void *base) {$/;"	f
+lmc_um_check_unmarked	src/localmemcache/lmc_valloc.c	/^int lmc_um_check_unmarked(void *base, char *bf, size_t va, size_t size) {$/;"	f
+lmc_um_find_leaks	src/localmemcache/lmc_valloc.c	/^int lmc_um_find_leaks(void *base, char *bf) {$/;"	f
+lmc_um_getbit	src/localmemcache/lmc_valloc.c	/^int lmc_um_getbit(char *bf, size_t i) {$/;"	f
+lmc_um_mark	src/localmemcache/lmc_valloc.c	/^int lmc_um_mark(void *base, char *bf, size_t va, size_t size) {$/;"	f
+lmc_um_mark_allocated	src/localmemcache/lmc_valloc.c	/^int lmc_um_mark_allocated(void *base, char *bf, size_t va) {$/;"	f
+lmc_um_new_mem_usage_bitmap	src/localmemcache/lmc_valloc.c	/^char *lmc_um_new_mem_usage_bitmap(void *base) {$/;"	f
+lmc_um_setbit	src/localmemcache/lmc_valloc.c	/^void lmc_um_setbit(char *bf, size_t i, size_t v) {$/;"	f
+lmc_unlock_shm_region	src/localmemcache/localmemcache.c	/^int lmc_unlock_shm_region(const char *who, local_memcache_t *lmc) {$/;"	f
+lmc_valloc	src/localmemcache/lmc_common.c	/^#undef lmc_valloc$/;"	d	file:
+lmc_valloc	src/localmemcache/lmc_common.h	/^#define lmc_valloc(/;"	d
+lmc_valloc	src/localmemcache/lmc_valloc.c	/^#undef lmc_valloc /;"	d	file:
+lmc_valloc	src/localmemcache/lmc_valloc.c	/^size_t lmc_valloc(void *base, size_t size) {$/;"	f
+local_memcache_check_consistency	src/localmemcache/localmemcache.c	/^int local_memcache_check_consistency(local_memcache_t *lmc, lmc_error_t *e) {$/;"	f
+local_memcache_check_namespace	src/localmemcache/localmemcache.c	/^int local_memcache_check_namespace(const char *namespace, const char *filename, $/;"	f
+local_memcache_clear	src/localmemcache/localmemcache.c	/^int local_memcache_clear(local_memcache_t *lmc) {$/;"	f
+local_memcache_create	src/localmemcache/localmemcache.c	/^local_memcache_t *local_memcache_create(const char *namespace, $/;"	f
+local_memcache_delete	src/localmemcache/localmemcache.c	/^int local_memcache_delete(local_memcache_t *lmc, char *key, size_t n_key) {$/;"	f
+local_memcache_drop_namespace	src/localmemcache/localmemcache.c	/^int local_memcache_drop_namespace(const char *namespace, const char *filename,$/;"	f
+local_memcache_free	src/localmemcache/localmemcache.c	/^int local_memcache_free(local_memcache_t *lmc, lmc_error_t *e) {$/;"	f
+local_memcache_get_new	src/localmemcache/localmemcache.c	/^char *local_memcache_get_new(local_memcache_t *lmc, $/;"	f
+local_memcache_iterate	src/localmemcache/localmemcache.c	/^int local_memcache_iterate(local_memcache_t *lmc, void *ctx, $/;"	f
+local_memcache_random_pair_new	src/localmemcache/localmemcache.c	/^int local_memcache_random_pair_new(local_memcache_t *lmc, $/;"	f
+local_memcache_set	src/localmemcache/localmemcache.c	/^int local_memcache_set(local_memcache_t *lmc, $/;"	f
+local_memcache_t	src/localmemcache/localmemcache.h	/^} local_memcache_t;$/;"	t	typeref:struct:__anon16
+lock	src/localmemcache/localmemcache.h	/^  lmc_lock_t *lock;$/;"	m	struct:__anon16
+locked	src/localmemcache/lmc_valloc.h	/^  int locked;$/;"	m	struct:__anon14
+log	src/localmemcache/lmc_valloc.h	/^  lmc_log_descriptor_t log;$/;"	m	struct:__anon14
+long_value	src/cache.c	/^long long_value(VALUE i) { return NIL_P(i) ? 0 : NUM2LONG(rb_Integer(i)); }$/;"	f
+magic	src/localmemcache/lmc_valloc.h	/^  size_t magic;$/;"	m	struct:__anon14
+md_first_free	src/localmemcache/lmc_valloc.c	/^lmc_mem_chunk_descriptor_t *md_first_free(void *base) {$/;"	f
+min_alloc_size	src/localmemcache/lmc_valloc.h	/^  size_t min_alloc_size;$/;"	m	struct:__anon14
+mrb_init_rbcache	src/cache.c	/^void mrb_init_rbcache(mrb_state *mrb) {$/;"	f
+mrb_mruby_io_gem_final	src/mruby_cache_gem.c	/^mrb_mruby_io_gem_final(mrb_state* mrb)$/;"	f
+mrb_mruby_io_gem_init	src/mruby_cache_gem.c	/^mrb_mruby_io_gem_init(mrb_state* mrb)$/;"	f
+new	mrblib/cache.rb	/^  def self.new(options)$/;"	F	class:Cache
+next	src/localmemcache/lmc_valloc.h	/^  size_t next;$/;"	m	struct:__anon15
+num2string	src/cache.c	/^VALUE num2string(long i) { return rb_big2str(rb_int2big(i), 10); }$/;"	f
+ofs	src/localmemcache/lmc_hashtable.h	/^  size_t ofs;$/;"	m	struct:__anon8
+op_id	src/localmemcache/lmc_hashtable.c	/^   int op_id;$/;"	m	struct:__anon6	file:
+op_id	src/localmemcache/lmc_valloc.h	/^   int op_id;$/;"	m	struct:__anon13
+open	src/cache.c	/^  int open;$/;"	m	struct:__anon2	file:
+p1	src/localmemcache/lmc_valloc.h	/^   size_t p1;$/;"	m	struct:__anon13
+p2	src/localmemcache/lmc_valloc.h	/^   size_t p2;$/;"	m	struct:__anon13
+rb_lmc_check_handle_access	src/cache.c	/^local_memcache_t *rb_lmc_check_handle_access(rb_lmc_handle_t *h) {$/;"	f
+rb_lmc_free_handle	src/cache.c	/^static void rb_lmc_free_handle(rb_lmc_handle_t *h) {$/;"	f	file:
+rb_lmc_handle_t	src/cache.c	/^} rb_lmc_handle_t;$/;"	t	typeref:struct:__anon2	file:
+rb_lmc_raise_exception	src/cache.c	/^void rb_lmc_raise_exception(lmc_error_t *e) {$/;"	f
+root_lock	src/localmemcache/localmemcache.h	/^  lmc_lock_t *root_lock;$/;"	m	struct:__anon16
+round_to_next_power_of_2	src/localmemcache/lmc_valloc.c	/^size_t round_to_next_power_of_2(size_t v) {$/;"	f
+rstring_acquire	src/cache.c	/^void rstring_acquire(VALUE s, lmc_rb_str_d_t *d) { $/;"	f
+rstring_length	src/cache.c	/^size_t rstring_length(VALUE s) { $/;"	f
+rstring_ptr	src/cache.c	/^char *rstring_ptr(VALUE s) { $/;"	f
+rstring_ptr_null	src/cache.c	/^char *rstring_ptr_null(VALUE s) { $/;"	f
+ruby_errinfo	src/cache.c	/^#define ruby_errinfo /;"	d	file:
+ruby_string	src/cache.c	/^static VALUE ruby_string(const char *s) { return s ? rb_str_new2(s) : Qnil; }$/;"	f	file:
+sem	src/localmemcache/lmc_lock.h	/^  sem_t *sem;$/;"	m	struct:__anon10
+shm	src/localmemcache/localmemcache.h	/^  lmc_shm_t *shm;$/;"	m	struct:__anon16
+size	src/localmemcache/lmc_hashtable.h	/^  size_t size;$/;"	m	struct:__anon9
+size	src/localmemcache/lmc_shm.h	/^  size_t size;$/;"	m	struct:__anon11
+size	src/localmemcache/lmc_valloc.h	/^  size_t size;$/;"	m	struct:__anon15
+size	src/localmemcache/localmemcache.h	/^  size_t size;$/;"	m	struct:__anon16
+total_free_mem	src/localmemcache/lmc_valloc.h	/^  size_t total_free_mem;$/;"	m	struct:__anon12
+total_mem	src/localmemcache/lmc_valloc.h	/^  size_t total_mem;$/;"	m	struct:__anon12
+total_shm_size	src/localmemcache/lmc_valloc.h	/^  size_t total_shm_size;$/;"	m	struct:__anon12
+total_size	src/localmemcache/lmc_valloc.h	/^  size_t total_size;$/;"	m	struct:__anon14
+va_buckets	src/localmemcache/lmc_hashtable.h	/^  va_ht_hash_entry_t va_buckets[LMC_HT_BUCKETS];$/;"	m	struct:__anon9
+va_hash	src/localmemcache/lmc_valloc.h	/^  size_t va_hash;$/;"	m	struct:__anon14
+va_hash	src/localmemcache/localmemcache.h	/^  size_t va_hash;$/;"	m	struct:__anon16
+va_ht_hash_entry_t	src/localmemcache/lmc_hashtable.h	/^typedef size_t va_ht_hash_entry_t;$/;"	t
+va_ht_hash_t	src/localmemcache/lmc_hashtable.h	/^typedef size_t va_ht_hash_t;$/;"	t
+va_key	src/localmemcache/lmc_hashtable.c	/^   size_t va_key;$/;"	m	struct:__anon6	file:
+va_key	src/localmemcache/lmc_hashtable.h	/^  va_string_t va_key;$/;"	m	struct:__anon7
+va_next	src/localmemcache/lmc_hashtable.h	/^  va_ht_hash_entry_t va_next;$/;"	m	struct:__anon7
+va_string_t	src/localmemcache/lmc_hashtable.h	/^typedef size_t va_string_t;$/;"	t
+va_value	src/localmemcache/lmc_hashtable.c	/^   size_t va_value;$/;"	m	struct:__anon6	file:
+va_value	src/localmemcache/lmc_hashtable.h	/^  va_string_t va_value;$/;"	m	struct:__anon7
+version	src/localmemcache/lmc_valloc.h	/^  size_t version;$/;"	m	struct:__anon14
