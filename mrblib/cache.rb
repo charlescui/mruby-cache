@@ -52,7 +52,7 @@ class Cache
     _new(stringfy_keys(o));
   end
   def has_key?(k) !get(k).nil? end
-  def stringfy_keys(h)
+  def self.stringfy_keys(h)
     h_new = h.dup
     h_new.keys.each do |key|
       h_new[key.to_s] = h_new[key]
