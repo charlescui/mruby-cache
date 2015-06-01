@@ -1,5 +1,9 @@
 MRuby::Gem::Specification.new('mruby-cache') do |spec|
   spec.license = 'MIT'
   spec.authors = 'Charles Cui'
-  spec.linker.libraries << ['pthread', 'rt']
+  if RUBY_PLATFORM =~ /darwin/i
+    spec.linker.libraries << ['pthread']
+  else
+    spec.linker.libraries << ['pthread', 'rt']
+  end
 end
