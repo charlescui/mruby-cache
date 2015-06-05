@@ -9,7 +9,7 @@ It's mrbgems.
 When you use in your project, please add below to your ``build_config.rb``.
 
 ```ruby
-  conf.gem :git => 'git@github.com:charlescui/mruby-cache.git'
+  conf.gem :github => 'charlescui/mruby-cache'
 ```
 
 ## Description
@@ -17,15 +17,24 @@ When you use in your project, please add below to your ``build_config.rb``.
 ```ruby
 #Creates a new handle for accessing a shared memory region.
 
-Cache.new :namespace=>"foo", :size_mb=> 1
-Cache.new :namespace=>"foo", :size_mb=> 1, :min_alloc_size => 256
-Cache.new :filename=>"./foo.lmc"
-Cache.new :filename=>"./foo.lmc", :min_alloc_size => 512
+cache = Cache.new :namespace=>"foo", :size_mb=> 1
+cache = Cache.new :namespace=>"foo", :size_mb=> 1, :min_alloc_size => 256
+cache = Cache.new :filename=>"./foo.lmc"
+cache = Cache.new :filename=>"./foo.lmc", :min_alloc_size => 512
 ```
 You must supply at least a :namespace or :filename parameter
 The size_mb defaults to 1024 (1 GB).
 
+
 ## Usage
+- getter and setter
+
+```ruby
+cache["key"] = "value"
+cache.set "key", "value"
+cache["key"]    # => "value"
+cache.get "key" # => "value"
+```
 
 see `test/cache.rb`
 
