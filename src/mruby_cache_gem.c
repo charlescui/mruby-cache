@@ -61,7 +61,7 @@ static mrb_value lmc_rb_sym_force;
 void __rb_lmc_raise_exception(mrb_state *mrb, const char *error_type, const char *m) {
   mrb_sym eid;
   mrb_value k;
-  eid = mrb_intern(mrb, error_type);
+  eid = mrb_intern_cstr(mrb, error_type);
   k = mrb_mod_cv_get(mrb, Cache, eid);
   mrb_raise(mrb, mrb_class_ptr(k), m);
 }
@@ -296,15 +296,15 @@ Cache__shm_status(mrb_state *mrb, mrb_value self) {
   lmc_mem_status_t ms = lmc_status(lmc->base, "shm_status");
   if (!lmc_unlock_shm_region("shm_status", lmc)) return mrb_nil_value();
 
-  mrb_hash_set(mrb, hash, mrb_symbol_value(mrb_intern(mrb, "free_bytes")), 
+  mrb_hash_set(mrb, hash, mrb_symbol_value(mrb_intern_cstr(mrb, "free_bytes")), 
       mrb_fixnum_value(ms.total_free_mem));
-  mrb_hash_set(mrb, hash, mrb_symbol_value(mrb_intern(mrb, "total_bytes")), 
+  mrb_hash_set(mrb, hash, mrb_symbol_value(mrb_intern_cstr(mrb, "total_bytes")), 
       mrb_fixnum_value(ms.total_shm_size));
-  mrb_hash_set(mrb, hash, mrb_symbol_value(mrb_intern(mrb, "used_bytes")), mrb_fixnum_value(
+  mrb_hash_set(mrb, hash, mrb_symbol_value(mrb_intern_cstr(mrb, "used_bytes")), mrb_fixnum_value(
       ms.total_shm_size - ms.total_free_mem));
-  mrb_hash_set(mrb, hash, mrb_symbol_value(mrb_intern(mrb, "free_chunks")), mrb_fixnum_value(
+  mrb_hash_set(mrb, hash, mrb_symbol_value(mrb_intern_cstr(mrb, "free_chunks")), mrb_fixnum_value(
       ms.free_chunks));
-  mrb_hash_set(mrb, hash, mrb_symbol_value(mrb_intern(mrb, "largest_chunk")), mrb_fixnum_value(
+  mrb_hash_set(mrb, hash, mrb_symbol_value(mrb_intern_cstr(mrb, "largest_chunk")), mrb_fixnum_value(
       ms.largest_chunk));
   return hash;
 }
